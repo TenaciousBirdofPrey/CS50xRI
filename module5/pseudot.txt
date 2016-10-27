@@ -1,0 +1,14 @@
+do the following while fgetc(stdin) is not return and is not the end of file
+    append(c)
+        create a new node
+        put c in that node
+        set the next value to null
+        is head  is set to null?
+            make head equal to the address of this new node
+            and break from this loop
+        if not continue in loop
+            create a pointer called curr and make it equal to head.
+                while the value of curr isn't null
+                curr will equal the adrres of the next node
+                once the value of curr is null
+                change it so it points to the newnoded.
